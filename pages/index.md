@@ -13,7 +13,7 @@ SELECT
     strptime(Fecha, '%Y-%m-%d %H:%M:%S') AS fecha,
     Nuevos_seguidores
 FROM linkedin.followers
-ORDER BY fecha ASC
+ORDER BY fecha DESC
 LIMIT 60;
 
 ```
@@ -76,7 +76,7 @@ WHERE Informacion = 'Sectores'
 ORDER BY category_type, percentage DESC;
 ```
 
-<DataTable data={companies}>
+<DataTable data={Industries}>
 	<Column id=category_type title="Group" />
 	<Column id=category_name title="Category" />
 	<Column 
