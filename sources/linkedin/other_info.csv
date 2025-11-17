@@ -1,0 +1,31 @@
+Informacion,Categoria,Valor
+Cargos,"Analista de datos",6%
+Cargos,"Ingeniero de datos",5%
+Cargos,"Cientifico de datos",2%
+Cargos,"Ingeniero de software",2%
+Cargos,"Analista de inteligencia empresarial",2%
+Ubicaciones,"Buenos Aires y alrededores",12%
+Ubicaciones,"Area metropolitana de Lima",5%
+Ubicaciones,"Area metropolitana de Bogota D.C.",4%
+Ubicaciones,"Area metropolitana de Santiago",3%
+Ubicaciones,"Area metropolitana de Ciudad de Mexico",3%
+Sectores,"Servicios y consultoria de TI",17%
+Sectores,"Desarrollo de software",9%
+Sectores,"Infraestructura y analisis de datos",9%
+Sectores,"Tecnologia, informacion e internet",8%
+Sectores,"Servicios financieros",4%
+Nivel de responsabilidad,"Sin experiencia",36%
+Nivel de responsabilidad,"Con experiencia",35%
+Nivel de responsabilidad,"Gerente",4%
+Nivel de responsabilidad,"Director",3%
+Nivel de responsabilidad,"Directivo",2%
+Tamano de la empresa,"Mas de 10.001 empleados",16%
+Tamano de la empresa,"De 1.001 a 5.000 empleados",12%
+Tamano de la empresa,"De 51 a 200 empleados",11%
+Tamano de la empresa,"De 11 a 50 empleados",10%
+Tamano de la empresa,"De 201 a 500 empleados",8%
+Empresas,"Orange Digital CX",1%
+Empresas,"NTT DATA Europe & Latam",< 1 %
+Empresas,"Mercado Libre",< 1 %
+Empresas,"PedidosYa",< 1 %
+Empresas,"Profesional Independiente",< 1 %
