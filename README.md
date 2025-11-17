@@ -1,48 +1,41 @@
-# Evidence Template Project
+# BI as Code
 
-## Using Codespaces
+![BI as Code](https://miro.medium.com/v2/resize:fit:640/format:webp/1*yOz89wYaAW9ZiViPebJrNg.png)
 
-If you are using this template in Codespaces, click the `Start Evidence` button in the bottom status bar. This will install dependencies and open a preview of your project in your browser - you should get a popup prompting you to open in browser.
+Explore LinkedIn analytics using **Evidence.dev** to build dashboards entirely in code, version-controlled and reproducible.
 
-Or you can use the following commands to get started:
+---
+
+## Using VS Code
+
+1. Install the [Evidence VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Evidence.evidence-vscode)  
+2. Open Command Palette (`Ctrl/Cmd + Shift + P`) → `Evidence: New Evidence Project`  
+3. Click **Start Evidence** in the bottom status bar. This installs dependencies, generates sources from CSVs, and opens the preview.  
 
 ```bash
+# If using CLI directly:
 npm install
-npm run sources
-npm run dev -- --host 0.0.0.0
+npm run sources           # Generate all sources (CSV → SQL tables)
+npm run dev -- --host 0.0.0.0  # Start development server
 ```
 
-See [the CLI docs](https://docs.evidence.dev/cli/) for more command information.
+## Knowledge Applied
 
-**Note:** Codespaces is much faster on the Desktop app. After the Codespace has booted, select the hamburger menu → Open in VS Code Desktop.
+This project demonstrates:
 
-## Get Started from VS Code
+### SQL Queries
+- Data was transformed, aggregated, and queried using SQL to create meaningful insights from CSV sources.
 
-The easiest way to get started is using the [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=Evidence.evidence-vscode):
+### Data Visualization
+- Build dashboards with:
+  - **Treemaps** for categorical breakdowns
+  - **Line charts** for trends over time
+  - **Bar charts** for comparisons
 
+### Version Control & Reproducibility
+- CSV sources, queries, and dashboards are all version-controlled.  
+- Makes analytics auditable and shareable across teams.
 
-
-1. Install the extension from the VS Code Marketplace
-2. Open the Command Palette (Ctrl/Cmd + Shift + P) and enter `Evidence: New Evidence Project`
-3. Click `Start Evidence` in the bottom status bar
-
-## Get Started using the CLI
-
-```bash
-npx degit evidence-dev/template my-project
-cd my-project 
-npm install 
-npm run sources
-npm run dev 
-```
-
-Check out the docs for [alternative install methods](https://docs.evidence.dev/getting-started/install-evidence) including Docker, Github Codespaces, and alongside dbt.
-
-
-
-## Learning More
-
-- [Docs](https://docs.evidence.dev/)
-- [Github](https://github.com/evidence-dev/evidence)
-- [Slack Community](https://slack.evidence.dev/)
-- [Evidence Home Page](https://www.evidence.dev)
+### Deploy & Share
+- The app is deployed and publicly accessible here:  
+  [BI as Code Dashboard](hhttps://bi-as-code.evidence.app/)

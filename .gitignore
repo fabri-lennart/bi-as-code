@@ -1,10 +1,24 @@
+# Node modules
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Evidence cache / temp
+.evidence/
+.evidence/meta
 .evidence/template
+
+# SvelteKit build
 .svelte-kit
 build
-node_modules
-.DS_Store
-static/data
-*.options.yaml
+
+# VS Code local settings
+.vscode/
 .vscode/settings.json
+
+# Static data (si quieres regenerarla o no versionarla)
+static/data
+
+# Environment variables
 .env
-.evidence/meta
