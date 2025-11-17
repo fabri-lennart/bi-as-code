@@ -1,6 +1,6 @@
 # BI as Code
 
-![BI as Code](https://miro.medium.com/v2/resize:fit:640/format:webp/1*yOz89wYaAW9ZiViPebJrNg.png)
+![BI as Code](https://evidence.dev/hero_image_final4.png)
 
 Explore LinkedIn analytics using **Evidence.dev** to build dashboards entirely in code, version-controlled and reproducible.
 
