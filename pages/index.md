@@ -66,7 +66,7 @@ FROM linkedin.general_metrics
 
 #  Companies
 
-```companies
+```Industries
 SELECT
     Informacion AS category_type,
     Categoria AS category_name,
