@@ -68,20 +68,20 @@ FROM linkedin.general_metrics
 
 ```companies
 SELECT
-    Informacion,
-    Categoria,
-    CAST(regexp_replace(Valor, '%', '') AS INTEGER) AS porcentaje
+    Informacion AS category_type,
+    Categoria AS category_name,
+    CAST(regexp_replace(Valor, '%', '') AS INTEGER) AS percentage
 FROM linkedin.other_info
 WHERE Informacion = 'Sectores'
-ORDER BY Informacion, porcentaje DESC;
+ORDER BY category_type, percentage DESC;
 ```
 
 <DataTable data={companies}>
-	<Column id=Informacion title="Grupo" />
-	<Column id=Categoria title="Categoría" />
+	<Column id=category_type title="Group" />
+	<Column id=category_name title="Category" />
 	<Column 
-        id=porcentaje 
-        title="Porcentaje" 
+        id=percentage 
+        title="Percentage" 
         align=center 
         contentType=bar 
     />
